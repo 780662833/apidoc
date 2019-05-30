@@ -14,15 +14,6 @@
             "Fxd\\Apidoc\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.ngochain.cn"
-        },
-        {
-            "packagist": false
-        }
-    ],
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
