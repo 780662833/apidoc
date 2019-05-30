@@ -1,0 +1,42 @@
+{
+    "name": "fxd/apidoc",
+    "description": "自动生成在线测试接口和文档",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "付晓东",
+            "email": "xiaodong.fu@wealedger.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Fxd\\Apidoc\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.ngochain.cn"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "secure-http" : false,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fxd\\Apidoc\\DocServiceProvider"
+            ]
+        }
+    }
+}
