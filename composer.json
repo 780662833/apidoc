@@ -9,9 +9,6 @@
             "email": "xiaodong.fu@wealedger.com"
         }
     ],
-    "require": {
-
-    },
     "autoload": {
         "psr-4": {
             "Fxd\\Apidoc\\": "src/"
